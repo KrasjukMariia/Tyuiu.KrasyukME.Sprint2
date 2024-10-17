@@ -9,7 +9,7 @@ namespace Tyuiu.KrasyukME.Sprint2.Task3.V21.Lib
             double y;
             if (x > 1)
             {
-                y = Math.Round(x * ((x + 9) / (x - 1)), 3);
+                y = Math.Round(x * Math.Pow( ((x + 9) / (x - 1)), x), 3);
                 return y;
             }
             else if (x == 0)
@@ -19,7 +19,7 @@ namespace Tyuiu.KrasyukME.Sprint2.Task3.V21.Lib
             }
             else if (-25 < x && x < 2)
             {
-                y = Math.Round(1 + (1 / Math.Pow(x, 2)), 3);
+                y = Math.Round(Math.Pow(1 + (1 / Math.Pow(x, 2)), x), 3);
                 return y;
 
             }
