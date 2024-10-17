@@ -12,7 +12,7 @@ namespace Tyuiu.KrasyukME.Sprint2.Task4.V28.Test
             double x = 5;
             double y = 5;
             double res = ds.Calculate(x, y);
-            Assert.AreEqual(res, 7, 101);
+            Assert.AreEqual(1.787, res);
         }
 
     }
