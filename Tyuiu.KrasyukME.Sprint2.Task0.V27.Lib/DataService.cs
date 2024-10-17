@@ -9,7 +9,7 @@ namespace Tyuiu.KrasyukME.Sprint2.Task0.V27.Lib
             results[0] = x > y;
             results[1] = x < y;
             results[2] = x == (y + 1030);
-            results[3] = x != (y + 1000);
+            results[3] = x != (y + 1030);
             results[4] = x <= (y + 1000);
             results[5] = y >= (x - 1030);
 
