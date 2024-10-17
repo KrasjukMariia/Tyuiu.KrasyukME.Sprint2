@@ -10,7 +10,7 @@ namespace Tyuiu.KrasyukME.Sprint2.Task4.V28.Test
         {
             DataService ds = new DataService();
             double x = 5;
-            double y = 10;
+            double y = 5;
             double res = ds.Calculate(x, y);
             Assert.AreEqual(res, 7, 101);
         }
