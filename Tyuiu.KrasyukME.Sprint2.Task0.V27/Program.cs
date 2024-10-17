@@ -23,7 +23,7 @@ namespace Tyuiu.KrasyukME.Sprint2.Task0.V27
 
 
             Console.WriteLine(ds.GetCompareOperations(x, y));
-            Console.ReadLine();
+            Console.ReadLine();/// 
         }
     }
 }
