@@ -21,20 +21,27 @@ namespace Tyuiu.KrasyukME.Sprint2.Task7.V10
             Console.WriteLine("***************************************************************************");
 
 
-            Console.WriteLine("Введите значение X:");
+            Console.WriteLine("Введите значение переменной X: ");
             double x = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите значение Y:");
+            Console.WriteLine("Введите значение переменной Y: ");
             double y = Convert.ToDouble(Console.ReadLine());
 
-
-
+            bool res = ds.CheckDotInShadedArea(x, y);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine($"{ds.CheckDotInShadedArea(x, y)}");
+            if (res)
+            {
+                Console.WriteLine("Точка находится в заштрихованной области");
+            }
+            else
+            {
+                Console.WriteLine("Точка не находится в заштрихованной области");
+            }
+
             Console.ReadKey();
         }
     }
